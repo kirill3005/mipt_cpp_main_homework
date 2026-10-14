@@ -1,9 +1,11 @@
-Домашнее задание 1 по C++
+# Домашнее задание 1 по C++
 
 Сборка через cmake:
 
+```
 cmake -S . -B build
 cmake --build build
+```
 
 После этого в папке build появятся task1, task2, task3, task4. Все читают ввод из консоли, можно так: ./build/task1 < input.txt
 
